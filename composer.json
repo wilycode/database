@@ -1,0 +1,62 @@
+{
+    "name": "wilycode/database-driver",
+    "description": "Database-agnostic connection, query, and transaction contracts for WilyCode PHP drivers.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WilyCode\\Database\\Driver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WilyCode\\Database\\Driver\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Simon Piter"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/tests/",
+            "/phpunit.xml",
+            "/.github/",
+            "/CHANGELOG.md",
+            "/CONTRIBUTING.md",
+            "/composer.lock",
+            "/.gitignore",
+            "/.gitattributes",
+            "/.editorconfig"
+        ]
+    },
+    "keywords": [
+        "database",
+        "database-driver",
+        "database-abstraction",
+        "database-interface",
+        "transactions",
+        "php",
+        "wilycode"
+    ],
+    "homepage": "https://github.com/wilycode/database-driver",
+    "support": {
+        "issues": "https://github.com/wilycode/database-driver/issues",
+        "source": "https://github.com/wilycode/database-driver"
+    }
+}
