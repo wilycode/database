@@ -2,6 +2,14 @@
 
 All notable changes to WilyCode Database Driver will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+
+- Renamed the Composer package to `wilycode/database`.
+- Retained the existing `WilyCode\Database\Driver\` PHP namespace to avoid unnecessary application changes.
+- Declared `replace` for `wilycode/database-driver` at matching versions.
+
 ## [0.1.0] - 2026-10-12
 
 ### Added
