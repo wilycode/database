@@ -1,6 +1,6 @@
 {
-    "name": "wilycode/database-driver",
-    "description": "Database-agnostic connection, query, and transaction contracts for WilyCode PHP drivers.",
+    "name": "wilycode/database",
+    "description": "Database-agnostic connection, query, and transaction contracts for PHP.",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -54,9 +54,12 @@
         "php",
         "wilycode"
     ],
-    "homepage": "https://github.com/wilycode/database-driver",
+    "homepage": "https://github.com/wilycode/database",
     "support": {
-        "issues": "https://github.com/wilycode/database-driver/issues",
-        "source": "https://github.com/wilycode/database-driver"
+        "issues": "https://github.com/wilycode/database/issues",
+        "source": "https://github.com/wilycode/database"
+    },
+    "replace": {
+        "wilycode/database-driver": "self.version"
     }
 }
