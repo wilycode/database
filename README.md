@@ -1,8 +1,8 @@
-# WilyCode Database Driver
+# WilyCode Database
 
 [![PHP 8.4+](https://img.shields.io/badge/PHP-8.4%2B-777BB4)](https://www.php.net/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Tests](https://github.com/wilycode/database-driver/actions/workflows/tests.yml/badge.svg)](https://github.com/wilycode/database-driver/actions/workflows/tests.yml)
+[![Tests](https://github.com/wilycode/database/actions/workflows/tests.yml/badge.svg)](https://github.com/wilycode/database/actions/workflows/tests.yml)
 
 **A lightweight, database-agnostic contract for queries, connections, and transactions in PHP 8.4+.**
 
@@ -31,7 +31,7 @@ Use the same `DatabaseInterface` with different database adapters. This package 
 ## Installation
 
 ```bash
-composer require wilycode/database-driver
+composer require wilycode/database
 ```
 
 ## Quick start
@@ -160,8 +160,8 @@ The resulting `QueryException` keeps the SQL query, the original exception as `g
 
 | Package | Purpose |
 | --- | --- |
-| [wilycode/database-driver-pdo](https://github.com/wilycode/database-driver-pdo) | PDO-based implementation of the driver contract |
-| [wilycode/database-driver-mysqli](https://github.com/wilycode/database-driver-mysqli) | MySQLi-based implementation of the driver contract |
+| [wilycode/database-pdo](https://github.com/wilycode/database-pdo) | PDO-based implementation of the driver contract |
+| [wilycode/database-mysqli](https://github.com/wilycode/database-mysqli) | MySQLi-based implementation of the driver contract |
 
 These adapter packages are developed and versioned separately.
 
@@ -177,7 +177,7 @@ GitHub Actions runs the test suite on pushes and pull requests. Tests are kept i
 
 ## Contributing
 
-Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue tracker](https://github.com/wilycode/database-driver/issues).
+Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and the [issue tracker](https://github.com/wilycode/database/issues).
 
 ## License
 
