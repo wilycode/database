@@ -14,6 +14,10 @@ Use the same `DatabaseInterface` with different database adapters. This package 
 >
 > **[Explore the WilyCode ecosystem →](https://github.com/wilycode/wilycode)**
 
+## Platform detection
+
+Added optional `PlatformProviderInterface::getPlatformName()`. Names follow PDO driver names (mysql, pgsql, sqlite, sqlsrv, oci). The base DatabaseInterface is unchanged. Wrappers that support detection should forward this capability.
+
 ## Features
 
 - One `DatabaseInterface` for query execution, fetching, and transactions.
